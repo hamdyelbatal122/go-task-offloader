@@ -6,3 +6,4 @@
 - [2018-02-21]: chore: configure golangci-lint with custom rules
 - [2018-02-26]: fix: resolve data race detected by race detector
 - [2018-02-27]: chore: add Makefile targets for build and test
+- [2018-03-13]: feat: implement graceful shutdown with signal handling
