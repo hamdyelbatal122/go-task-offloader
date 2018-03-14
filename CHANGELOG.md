@@ -7,3 +7,4 @@
 - [2018-02-26]: fix: resolve data race detected by race detector
 - [2018-02-27]: chore: add Makefile targets for build and test
 - [2018-03-13]: feat: implement graceful shutdown with signal handling
+- [2018-03-14]: feat: add distributed tracing with OpenTelemetry
