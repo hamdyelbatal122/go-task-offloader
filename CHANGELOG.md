@@ -9,3 +9,4 @@
 - [2018-03-13]: feat: implement graceful shutdown with signal handling
 - [2018-03-14]: feat: add distributed tracing with OpenTelemetry
 - [2018-03-18]: docs: add GoDoc comments to exported functions
+- [2018-04-08]: refactor: extract middleware into separate package
