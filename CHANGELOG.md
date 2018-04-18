@@ -11,3 +11,4 @@
 - [2018-03-18]: docs: add GoDoc comments to exported functions
 - [2018-04-08]: refactor: extract middleware into separate package
 - [2018-04-18]: refactor: consolidate configuration parsing into config package
+- [2018-04-18]: fix: handle context cancellation in long-running tasks
