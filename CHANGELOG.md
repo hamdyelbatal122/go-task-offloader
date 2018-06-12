@@ -14,3 +14,4 @@
 - [2018-04-18]: fix: handle context cancellation in long-running tasks
 - [2018-04-24]: fix: sanitize user input before shell execution
 - [2018-05-02]: feat: add Prometheus metrics instrumentation
+- [2018-06-12]: fix: correct JSON unmarshaling for optional fields
