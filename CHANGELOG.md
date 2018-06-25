@@ -15,3 +15,4 @@
 - [2018-04-24]: fix: sanitize user input before shell execution
 - [2018-05-02]: feat: add Prometheus metrics instrumentation
 - [2018-06-12]: fix: correct JSON unmarshaling for optional fields
+- [2018-06-25]: fix: resolve goroutine leak in connection pool
