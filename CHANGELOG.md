@@ -17,3 +17,4 @@
 - [2018-06-12]: fix: correct JSON unmarshaling for optional fields
 - [2018-06-25]: fix: resolve goroutine leak in connection pool
 - [2018-07-08]: fix: correct integer overflow in metric accumulator
+- [2018-07-13]: perf: use buffered channels to reduce blocking
