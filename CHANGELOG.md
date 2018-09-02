@@ -20,3 +20,4 @@
 - [2018-07-13]: perf: use buffered channels to reduce blocking
 - [2018-08-13]: chore: add integration tests for database layer
 - [2018-08-30]: chore: update go.mod to Go 1.21 and tidy dependencies
+- [2018-09-02]: docs: document public API with example usage
