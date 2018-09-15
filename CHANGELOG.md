@@ -21,3 +21,4 @@
 - [2018-08-13]: chore: add integration tests for database layer
 - [2018-08-30]: chore: update go.mod to Go 1.21 and tidy dependencies
 - [2018-09-02]: docs: document public API with example usage
+- [2018-09-15]: feat: implement exponential backoff for retries
