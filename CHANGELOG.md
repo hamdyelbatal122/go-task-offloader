@@ -24,3 +24,4 @@
 - [2018-09-15]: feat: implement exponential backoff for retries
 - [2018-09-27]: perf: reduce allocations in hot path with sync.Pool
 - [2018-09-30]: refactor: replace error strings with typed sentinel errors
+- [2018-10-01]: refactor: replace global state with dependency injection
