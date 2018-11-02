@@ -29,3 +29,4 @@
 - [2018-10-19]: refactor: separate transport layer from business logic across codebase
 - [2018-10-27]: feat: add gRPC health check protocol support
 - [2018-10-29]: chore: configure golangci-lint with custom rules across codebase
+- [2018-11-02]: fix: resolve data race detected by race detector for performance
