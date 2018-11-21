@@ -31,3 +31,4 @@
 - [2018-10-29]: chore: configure golangci-lint with custom rules across codebase
 - [2018-11-02]: fix: resolve data race detected by race detector for performance
 - [2018-11-09]: chore: add Makefile targets for build and test to fix edge case
+- [2018-11-21]: feat: implement graceful shutdown with signal handling across codebase
