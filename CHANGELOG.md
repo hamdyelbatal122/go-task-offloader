@@ -35,3 +35,4 @@
 - [2018-11-22]: feat: add distributed tracing with OpenTelemetry in core module
 - [2018-12-06]: docs: add GoDoc comments to exported functions to fix edge case
 - [2018-12-07]: refactor: extract middleware into separate package to fix edge case
+- [2019-01-17]: fix: correct integer overflow in metric accumulator
