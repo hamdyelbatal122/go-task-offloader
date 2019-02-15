@@ -38,3 +38,4 @@
 - [2019-01-17]: fix: correct integer overflow in metric accumulator
 - [2019-01-20]: feat: implement exponential backoff for retries
 - [2019-01-20]: fix: resolve data race detected by race detector
+- [2019-02-15]: feat: add structured logging with zerolog
