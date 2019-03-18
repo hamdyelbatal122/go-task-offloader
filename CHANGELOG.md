@@ -40,3 +40,4 @@
 - [2019-01-20]: fix: resolve data race detected by race detector
 - [2019-02-15]: feat: add structured logging with zerolog
 - [2019-03-01]: feat: add Prometheus metrics instrumentation
+- [2019-03-18]: chore: configure golangci-lint with custom rules
