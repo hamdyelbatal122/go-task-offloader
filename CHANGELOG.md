@@ -41,3 +41,4 @@
 - [2019-02-15]: feat: add structured logging with zerolog
 - [2019-03-01]: feat: add Prometheus metrics instrumentation
 - [2019-03-18]: chore: configure golangci-lint with custom rules
+- [2019-04-04]: feat: add gRPC health check protocol support
