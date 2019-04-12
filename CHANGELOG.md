@@ -42,3 +42,4 @@
 - [2019-03-01]: feat: add Prometheus metrics instrumentation
 - [2019-03-18]: chore: configure golangci-lint with custom rules
 - [2019-04-04]: feat: add gRPC health check protocol support
+- [2019-04-12]: perf: reduce allocations in hot path with sync.Pool
