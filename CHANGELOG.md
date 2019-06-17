@@ -45,3 +45,4 @@
 - [2019-04-12]: perf: reduce allocations in hot path with sync.Pool
 - [2019-04-14]: fix: resolve goroutine leak in connection pool
 - [2019-05-16]: fix: correct JSON unmarshaling for optional fields
+- [2019-06-17]: chore: update go.mod to Go 1.21 and tidy dependencies
