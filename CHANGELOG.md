@@ -47,3 +47,4 @@
 - [2019-05-16]: fix: correct JSON unmarshaling for optional fields
 - [2019-06-17]: chore: update go.mod to Go 1.21 and tidy dependencies
 - [2019-06-19]: docs: add GoDoc comments to exported functions
+- [2019-06-24]: chore: add integration tests for database layer
