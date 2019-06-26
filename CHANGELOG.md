@@ -49,3 +49,4 @@
 - [2019-06-19]: docs: add GoDoc comments to exported functions
 - [2019-06-24]: chore: add integration tests for database layer
 - [2019-06-26]: refactor: extract middleware into separate package
+- [2019-06-26]: fix: sanitize user input before shell execution
