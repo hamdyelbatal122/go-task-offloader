@@ -50,3 +50,4 @@
 - [2019-06-24]: chore: add integration tests for database layer
 - [2019-06-26]: refactor: extract middleware into separate package
 - [2019-06-26]: fix: sanitize user input before shell execution
+- [2019-07-14]: feat: add distributed tracing with OpenTelemetry
