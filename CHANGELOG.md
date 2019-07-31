@@ -53,3 +53,4 @@
 - [2019-07-14]: feat: add distributed tracing with OpenTelemetry
 - [2019-07-18]: refactor: replace error strings with typed sentinel errors
 - [2019-07-25]: refactor: separate transport layer from business logic
+- [2019-07-31]: docs: document public API with example usage
