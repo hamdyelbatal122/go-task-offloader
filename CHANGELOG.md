@@ -54,3 +54,4 @@
 - [2019-07-18]: refactor: replace error strings with typed sentinel errors
 - [2019-07-25]: refactor: separate transport layer from business logic
 - [2019-07-31]: docs: document public API with example usage
+- [2019-08-25]: chore: add Makefile targets for build and test
