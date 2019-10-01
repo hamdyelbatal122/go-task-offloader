@@ -57,3 +57,4 @@
 - [2019-08-25]: chore: add Makefile targets for build and test
 - [2019-09-11]: refactor: replace global state with dependency injection
 - [2019-09-18]: feat: implement graceful shutdown with signal handling
+- [2019-10-01]: refactor: consolidate configuration parsing into config package
