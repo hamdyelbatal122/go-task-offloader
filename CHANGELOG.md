@@ -60,3 +60,4 @@
 - [2019-10-01]: refactor: consolidate configuration parsing into config package
 - [2019-10-27]: perf: use buffered channels to reduce blocking
 - [2019-10-28]: fix: handle context cancellation in long-running tasks
+- [2019-10-29]: fix: correct integer overflow in metric accumulator across codebase
