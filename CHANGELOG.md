@@ -62,3 +62,4 @@
 - [2019-10-28]: fix: handle context cancellation in long-running tasks
 - [2019-10-29]: fix: correct integer overflow in metric accumulator across codebase
 - [2019-11-14]: feat: implement exponential backoff for retries across codebase
+- [2019-11-15]: fix: resolve data race detected by race detector
