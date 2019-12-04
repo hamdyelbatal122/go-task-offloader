@@ -64,3 +64,4 @@
 - [2019-11-14]: feat: implement exponential backoff for retries across codebase
 - [2019-11-15]: fix: resolve data race detected by race detector
 - [2019-12-04]: feat: add structured logging with zerolog across codebase
+- [2019-12-04]: feat: add Prometheus metrics instrumentation for performance
