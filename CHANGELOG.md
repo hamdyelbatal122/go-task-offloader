@@ -65,3 +65,4 @@
 - [2019-11-15]: fix: resolve data race detected by race detector
 - [2019-12-04]: feat: add structured logging with zerolog across codebase
 - [2019-12-04]: feat: add Prometheus metrics instrumentation for performance
+- [2019-12-08]: chore: configure golangci-lint with custom rules to fix edge case
