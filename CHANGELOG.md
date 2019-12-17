@@ -67,3 +67,4 @@
 - [2019-12-04]: feat: add Prometheus metrics instrumentation for performance
 - [2019-12-08]: chore: configure golangci-lint with custom rules to fix edge case
 - [2019-12-11]: feat: add gRPC health check protocol support across codebase
+- [2019-12-17]: perf: reduce allocations in hot path with sync.Pool in core module
