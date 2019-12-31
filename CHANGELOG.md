@@ -70,3 +70,4 @@
 - [2019-12-17]: perf: reduce allocations in hot path with sync.Pool in core module
 - [2019-12-25]: fix: resolve goroutine leak in connection pool to fix edge case
 - [2019-12-25]: fix: correct JSON unmarshaling for optional fields to fix edge case
+- [2019-12-31]: chore: update go.mod to Go 1.21 and tidy dependencies for performance
