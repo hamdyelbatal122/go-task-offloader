@@ -1,4 +1,4 @@
-module github.com/go-sidecar-worker
+module github.com/hamdyelbatal122/go-task-offloader
 
 go 1.22
 

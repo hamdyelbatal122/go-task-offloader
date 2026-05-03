@@ -1,0 +1,38 @@
+run:
+  timeout: 5m
+  go: "1.22"
+
+linters:
+  enable:
+    - errcheck        # check for unchecked errors
+    - gosimple        # simplify code
+    - govet           # go vet checks
+    - ineffassign     # detect ineffective assignments
+    - staticcheck     # static analysis
+    - unused          # find unused code
+    - gofmt           # enforce formatting
+    - goimports       # enforce import ordering
+    - misspell        # fix spelling mistakes in comments
+    - bodyclose       # check HTTP response body is closed
+    - noctx           # detect http requests without context
+    - revive          # opinionated linter (replaces golint)
+    - exportloopref   # check for pointers to loop variables
+    - gosec           # security checks
+
+linters-settings:
+  revive:
+    rules:
+      - name: exported
+        severity: warning
+  gosec:
+    excludes:
+      - G304  # file path from variable (acceptable for data handler)
+
+issues:
+  exclude-rules:
+    # Allow fmt.Println in main entrypoint
+    - path: cmd/worker/main.go
+      linters: [forbidigo]
+    # Test files have relaxed rules
+    - path: "_test.go"
+      linters: [errcheck, gosec]

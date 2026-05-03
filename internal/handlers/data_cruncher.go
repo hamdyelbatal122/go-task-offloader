@@ -12,7 +12,7 @@ import (
 
 	"go.uber.org/zap"
 
-	"github.com/go-sidecar-worker/internal/job"
+	"github.com/hamdyelbatal122/go-task-offloader/internal/job"
 )
 
 // DataCruncher handles large CSV/JSON dataset operations.

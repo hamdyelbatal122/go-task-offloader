@@ -11,7 +11,7 @@ import (
 	"github.com/redis/go-redis/v9"
 	"go.uber.org/zap"
 
-	"github.com/go-sidecar-worker/internal/job"
+	"github.com/hamdyelbatal122/go-task-offloader/internal/job"
 )
 
 // Consumer reads jobs from a Redis list and manages retry/DLQ logic.

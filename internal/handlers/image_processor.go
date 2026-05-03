@@ -7,7 +7,7 @@ import (
 
 	"go.uber.org/zap"
 
-	"github.com/go-sidecar-worker/internal/job"
+	"github.com/hamdyelbatal122/go-task-offloader/internal/job"
 
 	// govips wraps libvips — one of the fastest image processing C libraries.
 	// libvips processes images in a streaming pipeline, so it uses far less

@@ -21,11 +21,11 @@ import (
 	"github.com/redis/go-redis/v9"
 	"go.uber.org/zap"
 
-	"github.com/go-sidecar-worker/internal/config"
-	"github.com/go-sidecar-worker/internal/handlers"
-	"github.com/go-sidecar-worker/internal/health"
-	"github.com/go-sidecar-worker/internal/queue"
-	"github.com/go-sidecar-worker/internal/worker"
+	"github.com/hamdyelbatal122/go-task-offloader/internal/config"
+	"github.com/hamdyelbatal122/go-task-offloader/internal/handlers"
+	"github.com/hamdyelbatal122/go-task-offloader/internal/health"
+	"github.com/hamdyelbatal122/go-task-offloader/internal/queue"
+	"github.com/hamdyelbatal122/go-task-offloader/internal/worker"
 )
 
 func main() {

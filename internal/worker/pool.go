@@ -8,10 +8,10 @@ import (
 
 	"go.uber.org/zap"
 
-	"github.com/go-sidecar-worker/internal/config"
-	"github.com/go-sidecar-worker/internal/handlers"
-	"github.com/go-sidecar-worker/internal/job"
-	"github.com/go-sidecar-worker/internal/queue"
+	"github.com/hamdyelbatal122/go-task-offloader/internal/config"
+	"github.com/hamdyelbatal122/go-task-offloader/internal/handlers"
+	"github.com/hamdyelbatal122/go-task-offloader/internal/job"
+	"github.com/hamdyelbatal122/go-task-offloader/internal/queue"
 )
 
 // Pool manages a fixed set of goroutines, each independently polling Redis.
