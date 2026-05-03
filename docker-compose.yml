@@ -1,0 +1,61 @@
+version: "3.9"
+
+# ─────────────────────────────────────────────────────────────────────────────
+# Go-Sidecar-Worker — local development stack
+#
+# Usage:
+#   docker compose up --build          # build image and start all services
+#   docker compose logs -f worker      # tail worker logs
+#   docker compose exec redis redis-cli # open Redis CLI
+# ─────────────────────────────────────────────────────────────────────────────
+
+services:
+
+  # ── Go Sidecar Worker ───────────────────────────────────────────────────────
+  worker:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    restart: unless-stopped
+    environment:
+      REDIS_ADDR:     "redis:6379"
+      REDIS_PASSWORD: ""
+      REDIS_DB:       "0"
+      QUEUE_NAME:     "default"        # must match Laravel's queue name
+      DLQ_NAME:       "failed"
+      WORKER_COUNT:   "20"             # tune to CPU core count × 2
+      MAX_RETRIES:    "3"
+      HEALTH_PORT:    "8080"
+    ports:
+      - "8080:8080"                    # health + metrics endpoint
+    depends_on:
+      redis:
+        condition: service_healthy
+    networks:
+      - sidecar-net
+
+  # ── Redis ───────────────────────────────────────────────────────────────────
+  # Shared with the Laravel application. In production, point both services
+  # at your managed Redis instance (ElastiCache, Redis Cloud, etc.).
+  redis:
+    image: redis:7-alpine
+    restart: unless-stopped
+    command: ["redis-server", "--save", "60", "1"]   # persist every 60 s
+    ports:
+      - "6379:6379"                    # expose so Laravel (on host) can connect
+    volumes:
+      - redis-data:/data
+    healthcheck:
+      test:     ["CMD", "redis-cli", "ping"]
+      interval: 5s
+      timeout:  3s
+      retries:  5
+    networks:
+      - sidecar-net
+
+networks:
+  sidecar-net:
+    driver: bridge
+
+volumes:
+  redis-data:

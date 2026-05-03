@@ -1,0 +1,36 @@
+# ── Binaries ──────────────────────────────────────────────────────────────────
+go-sidecar-worker
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# ── Build output ──────────────────────────────────────────────────────────────
+/dist/
+/bin/
+
+# ── Go test cache / coverage ──────────────────────────────────────────────────
+*.test
+*.out
+coverage.txt
+coverage.html
+
+# ── Go module download cache (not needed in repo) ─────────────────────────────
+vendor/
+
+# ── Editor / OS artefacts ─────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# ── Environment files (never commit secrets) ──────────────────────────────────
+.env
+.env.*
+!.env.example
+
+# ── Docker ────────────────────────────────────────────────────────────────────
+docker-compose.override.yml
