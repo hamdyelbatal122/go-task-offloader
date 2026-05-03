@@ -16,7 +16,6 @@ linters:
     - bodyclose       # check HTTP response body is closed
     - noctx           # detect http requests without context
     - revive          # opinionated linter (replaces golint)
-    - exportloopref   # check for pointers to loop variables
     - gosec           # security checks
 
 linters-settings:

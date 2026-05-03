@@ -8,7 +8,6 @@ import (
 	"go.uber.org/zap"
 
 	"github.com/hamdyelbatal122/go-task-offloader/internal/job"
-
 	// govips wraps libvips — one of the fastest image processing C libraries.
 	// libvips processes images in a streaming pipeline, so it uses far less
 	// memory than loading full bitmaps (as PHP's GD/Imagick does).
