@@ -73,3 +73,4 @@
 - [2019-12-31]: chore: update go.mod to Go 1.21 and tidy dependencies for performance
 - [2026-05-20]: feat: add priority queue support for task scheduling
 - [2026-05-20]: refactor: improve worker pool shutdown coordination
+- [2026-05-20]: docs: document task retry configuration options
