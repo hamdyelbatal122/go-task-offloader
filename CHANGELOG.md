@@ -71,3 +71,4 @@
 - [2019-12-25]: fix: resolve goroutine leak in connection pool to fix edge case
 - [2019-12-25]: fix: correct JSON unmarshaling for optional fields to fix edge case
 - [2019-12-31]: chore: update go.mod to Go 1.21 and tidy dependencies for performance
+- [2026-05-20]: feat: add priority queue support for task scheduling
